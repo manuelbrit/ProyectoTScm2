@@ -1,3 +1,7 @@
+function playBg(){
+var video = document.getElementById("myVideo");
+video.play();
+}
 function login(){
 	var nombre = document.getElementById("userInput").value
 	var contraseña = document.getElementById("passwordInput").value
@@ -10,7 +14,7 @@ function login(){
 				window.location.href="../reserva.jsp";
 			}
 			else {
-				window.location.href="../vuelosTabla.jsp";			
+				window.location.href="../vuelosTabla.jsp";		
 			}
 		}
 	};
@@ -37,3 +41,4 @@ function eventDirtyRemoveHighlight(x) {
   var label = x.target.parentNode.getElementsByTagName("label");
   label[0].classList.toggle("highlight");
 }
+

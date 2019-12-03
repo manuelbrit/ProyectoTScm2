@@ -19,11 +19,24 @@
 	crossorigin="anonymous">
     <link rel="stylesheet" href="login.css" />
     <script src="login.js"></script>
-<title>Hello, world!</title>
+<title>Iniciar sesión</title>
+
+<!-- TODO: pasar esto al css -->
+
+
+
 </head>
 <body>
+<div class="video-container">
+
+<!-- The video -->
+<video autoplay muted loop id="myVideo" >
+  <source src="../res/media/tesla.mp4" type="video/mp4">
+</video>
+
+
       <div class="container card-deck">
-        <section class="card">
+            <section class="card">
             <header class="card-header">
                 <nav class="nav nav-tabs card-header-tabs" id="myTab" role="tablist" >
                   <a class="nav-link nav-item"  id="registrar-tab" data-toggle="tab" href="#registrar" role="tab" aria-controls="registrar" aria-selected="true">Registrar</a>
@@ -95,12 +108,15 @@
 			<button onclick="login()" class="button button-block"/>Iniciar Sesión</button>
 
             </div>
-
+              
+</div>
           </div><!-- tab-content -->
+
         </div>
-        </section>
+        </section> 
       </div> <!-- /form -->
       <script>
+      playBg();
       addEvent("formRegister")
       addEvent("formLogin")
       </script>
@@ -117,5 +133,7 @@
 		src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"
 		integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P"
 		crossorigin="anonymous"></script>
+		
+
 </body>
 </html>

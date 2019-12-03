@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="./menuLateral/menuLateral.css" />
     <script src="./menuLateral/menuLateral.js"></script>
 
-    <title>Brito | Rent Car</title>
+    <title>SCM2 | Rent Car</title>
   </head>
   <body>
     <div class="parallax"></div>
