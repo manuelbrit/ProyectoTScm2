@@ -3,20 +3,19 @@ package modelo;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import javax.ejb.LocalBean;
+import javax.ejb.Local;
 import javax.ejb.Stateless;
 
 /**
  * Session Bean implementation class Modelo
  */
 @Stateless
-@LocalBean
+@Local
 public class Modelo {
 	private List<Vuelo> vuelos;
 	private Map<String, List<List<Pasajero>>> 
