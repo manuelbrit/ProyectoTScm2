@@ -1,0 +1,37 @@
+.card {
+    opacity: 0.8;
+    filter: alpha(opacity=20);
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card3 {
+    width: 49%;
+}
+
+.card-kontak {
+    width: 50%;
+    margin: auto;
+}
+
+.card:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+.card-text {
+  height:60%;
+}
+.card-img-top {
+  height:40%;
+}
+.jumbotron {
+    opacity: 0.8;
+    filter: alpha(opacity=20);
+}
+.btn-primary {
+  background-color: #10f393;
+  border-color:#10f393;
+}

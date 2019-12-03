@@ -1,0 +1,90 @@
+.circulo {
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  display: block;
+  margin: auto;
+
+  margin-top: 20%;
+}
+
+
+.page {
+  /*background-image: url("resources/background.jpg");*/
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin:0;
+  padding: 0;
+}
+.page .header {
+  width:100%;
+  margin:0;
+  height: 15%;
+  background-color: gray;
+}
+.page .title {
+  background-color: black;
+  padding:5%
+}
+.page .title h1 {
+  color: #82e0aa;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: myFirstFont;
+  letter-spacing: -1px;
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+
+.page p {
+  color: #999999;
+  width:100%;
+  padding-top: 5%;
+  margin:0;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 31px;
+  font-family: mySecondFont !important;
+  background-color: white;
+}
+html {
+  font-family: myFirstFont;
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-color: white;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url("resources/MontserratAlternates-Regular.otf");
+
+}
+@font-face {
+  font-family: mySecondFont;
+  src: url("resources/SourceSansPro-Regular.otf");
+}
+.carrousel {
+  display: flex;
+  flex-wrap: nowrap;
+  width:100%;
+  background-color: white;
+}
+.carrousel div {
+
+  flex-grow: 4;
+
+}
+.carrousel div a {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  color: #999999;
+}
